@@ -1,7 +1,12 @@
 {
   "expo": {
-    "name": "PlayNPass",
-    "slug": "play-n-pass",
+    "name": "GuitarGrab",
+    "slug": "GuitarGrab",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/CoopNich/react-native-app",
+    "android": {
+      "package": "com.coopnich.GuitarGrab"
     }
   }
 }
